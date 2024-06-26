@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "289243144285",
+    "project_id": "test-efbeb",
+    "storage_bucket": "test-efbeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289243144285:android:4365fdaf8e94012b836db4",
+        "android_client_info": {
+          "package_name": "com.example.riverpodProject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoVYuqYKII-qciux_w6pIGlQ2yU195o4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
