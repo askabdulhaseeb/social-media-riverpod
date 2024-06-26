@@ -1,16 +1,16 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
-  final IconData iconData;
-  final VoidCallback onTap;
-  final bool haveColor;
   const CustomButton({
-    Key? key,
     required this.iconData,
     required this.onTap,
     required this.haveColor,
-  }) : super(key: key);
+    super.key,
+  });
+
+  final IconData iconData;
+  final VoidCallback onTap;
+  final bool haveColor;
 
   @override
   Widget build(BuildContext context) {

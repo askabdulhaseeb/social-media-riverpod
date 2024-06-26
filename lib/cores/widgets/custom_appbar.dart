@@ -1,12 +1,8 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 
 class CustomAppBar extends StatelessWidget {
+  const CustomAppBar({required this.title, super.key});
   final String title;
-  const CustomAppBar({
-    Key? key,
-    required this.title,
-  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

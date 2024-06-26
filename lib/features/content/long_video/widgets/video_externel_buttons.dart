@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../cores/colors.dart';
+import '../../../../utilities/colors.dart';
 
 class VideoExtraButton extends StatelessWidget {
   const VideoExtraButton({

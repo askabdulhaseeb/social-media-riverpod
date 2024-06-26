@@ -1,16 +1,16 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 
 class FlatButton extends StatelessWidget {
-  final String text;
-  final VoidCallback onPressed;
-  final Color colour;
   const FlatButton({
-    Key? key,
     required this.text,
     required this.onPressed,
     required this.colour,
-  }) : super(key: key);
+    super.key,
+  });
+
+  final String text;
+  final VoidCallback onPressed;
+  final Color colour;
 
   @override
   Widget build(BuildContext context) {

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import '../../../../cores/colors.dart';
+import '../../../../utilities/colors.dart';
 import '../../../../cores/widgets/flat_button.dart';
 import '../../../../features/content/Long_video/widgets/video_externel_buttons.dart';
 
 class Video extends StatelessWidget {
-  const Video({Key? key}) : super(key: key);
+  const Video({super.key});
 
   @override
   @override

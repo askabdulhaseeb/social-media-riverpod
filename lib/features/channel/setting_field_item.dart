@@ -2,16 +2,16 @@
 import 'package:flutter/material.dart';
 
 class SettingsItem extends StatelessWidget {
-  final String identifier;
-  final VoidCallback onPressed;
-  final String value;
-
   const SettingsItem({
-    Key? key,
     required this.identifier,
     required this.onPressed,
     required this.value,
-  }) : super(key: key);
+    super.key,
+  });
+
+  final String identifier;
+  final VoidCallback onPressed;
+  final String value;
 
   @override
   Widget build(BuildContext context) {

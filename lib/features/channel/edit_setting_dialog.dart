@@ -1,14 +1,14 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 
 class SettingsDialog extends StatefulWidget {
-  final String identifier;
-  final Function(String channelName)? onSave;
   const SettingsDialog({
-    Key? key,
     required this.identifier,
     this.onSave,
-  }) : super(key: key);
+    super.key,
+  });
+
+  final String identifier;
+  final Function(String channelName)? onSave;
 
   @override
   State<SettingsDialog> createState() => _SettingsDialogState();

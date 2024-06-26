@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../colors.dart';
+import '../../utilities/colors.dart';
 
 class ImageButton extends StatelessWidget {
   const ImageButton({
